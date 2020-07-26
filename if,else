@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int NumberOfLanguages;
+	cout << "How many Languages have you used  ?\n";
+	cin >> NumberOfLanguages;
+
+	if (NumberOfLanguages < 1)
+		cout << "Don't worry. It'll be fun!\n";
+	else
+		cout << "Cool! Enjoy the book.\n";
+
+		return 0;
+
+
+
+
+}
